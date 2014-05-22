@@ -1,0 +1,683 @@
+/*/////////////////////////////////////////////////////////////////////////////*/
+	/*FONTS*/
+/*/////////////////////////////////////////////////////////////////////////////*/
+
+@font-face {
+    font-family: 'bebas_neueregular';
+    src: url('webfontkit/bebasneue-webfont.eot');
+    src: url('webfontkit/bebasneue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfontkit/bebasneue-webfont.woff') format('woff'),
+         url('webfontkit/bebasneue-webfont.ttf') format('truetype'),
+         url('webfontkit/bebasneue-webfont.svg#bebas_neueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'distant_galaxyregular';
+    src: url('webfontkit/distgrg-webfont.eot');
+    src: url('webfontkit/distgrg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfontkit/distgrg-webfont.woff') format('woff'),
+         url('webfontkit/distgrg-webfont.ttf') format('truetype'),
+         url('webfontkit/distgrg-webfont.svg#distant_galaxyregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('webfontkit/opensans-regular-webfont.eot');
+    src: url('webfontkit/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfontkit/opensans-regular-webfont.woff') format('woff'),
+         url('webfontkit/opensans-regular-webfont.ttf') format('truetype'),
+         url('webfontkit/opensans-regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'HelveticaLL';
+    src: url('webfontkit/HelveticaLTStd-Light.eot');
+    src: url('webfontkit/HelveticaLTStd-Light.eot?#iefix') format('embedded-opentype'),
+         url('webfontkit/HelveticaLTStd-Light.woff') format('woff'),
+         url('webfontkit/HelveticaLTStd-Light.ttf') format('truetype'),
+         url('webfontkit/HelveticaLTStd-Light.svg#HelveticaLTStd-Light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'HelveticaL';
+    src: url('webfontkit/HelveticaLTStd-Obl.eot');
+    src: url('webfontkit/HelveticaLTStd-Obl.eot?#iefix') format('embedded-opentype'),
+         url('webfontkit/HelveticaLTStd-Obl.woff') format('woff'),
+         url('webfontkit/HelveticaLTStd-Obl.ttf') format('truetype'),
+         url('webfontkit/HelveticaLTStd-Obl.svg#HelveticaLTStd-Obl') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/*/////////////////////////////////////////////////////////////////////////////*/
+	/*GENERAL CSS*/
+/*/////////////////////////////////////////////////////////////////////////////*/
+
+
+html, body {
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+    padding: 0;
+    margin: 0;
+    background: url("/public/sativa.png") repeat ;
+    /*width: 100%;
+    height: 100%;
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
+    background-size: cover;*/
+}
+
+
+#main-container {
+	/*border: 1px solid black;*/
+	border: 0;
+	width: 1000px;
+	height: ;
+	margin: 5px auto 0px auto;
+	background-color:#8898A8; 
+	overflow: auto;
+	position: relative; 
+	/*z-index: 2;*/
+	
+}
+
+#footer-container {
+	/*border: 1px solid blue;*/
+	border-top: 2px solid #00021C;
+	width: 1000px;
+	height: 30px;
+	margin: 0px auto 0px auto;
+	position: relative;
+	background-color: rgba(197,199,182,0.4);
+
+	/*z-index: 2;*/
+}
+
+#footer-container p {
+	float: left;
+	margin: 2px auto 0 auto;
+	font-family: 'distant_galaxyregular';
+	text-align: center;
+	/*border: 1px solid red;*/
+	font-size: 1.5em;
+	padding: 3px 5px;
+	
+}
+
+#footer-container p:nth-child(2) {
+	/*border: 1px solid black;*/
+	float: right;
+	font-family: 'OpenSans';
+	font-size: 0.8em;
+
+}
+
+#sub-container {
+	/*border: 1px solid blue; */
+	width: 695px;
+	height: ;
+	float: left;
+	padding-bottom: 15px;
+	margin: 0;
+}
+
+.project-container {
+	/*border: 1px solid green;*/
+	border-top: ;
+	width: 680px;
+	height: ;
+	margin: 5px auto 0px auto;
+	padding-bottom: ;
+	
+}  
+
+a {
+	text-decoration: none;
+}
+/*/////////////////////////////////////////////////////////////////////////////*/
+	/*CSS FOR RESUME PAGE*/
+/*/////////////////////////////////////////////////////////////////////////////*/
+
+.resume-container {
+	/*border: 1px solid black;*/
+	width: 675px;
+	margin: 0 auto;
+
+}
+
+.section {
+	/*border: 1px solid red;*/
+	padding: 0;
+}
+
+.section h3 {
+	/*border: 1px solid green;*/
+	border-bottom: 2px solid #C0BEBB;
+	text-transform: ;
+	font-family: 'bebas_neueregular';
+	margin: 5px 0 5px 0;
+	font-size: 1.7em;
+	padding: 0 0 0 2px;
+	text-align: ;
+
+}
+
+.section-content h4 {
+	/*border: 1px solid green;*/
+	text-transform: ;
+	font-family: 'OpenSans';
+	margin: 1px 0 1px 0;
+	font-size: 1.1em ;
+	padding: 1px 1px 1px 10px;
+	font-weight: bold;
+
+}
+
+.section-content {
+	/*border: 1px solid yellow;*/
+	border-left: 1px dotted white;
+	margin: 13px auto;
+}
+
+.section-content span {
+	color: #E3DB9A;
+	text-decoration: underline;
+}
+
+.section-content p {
+	/*border: 1px solid green;*/
+	padding: 0 0 0 10px;
+	font-family: 'OpenSans';
+	font-size: 85%;
+	margin: 0 auto;
+}
+
+.section-content ul {
+	list-style: square;
+	margin: 0 auto;
+}
+
+.section-content ul li {
+	/*border: 1px solid green;*/
+	margin: 0 auto;
+	font-family: 'OpenSans';
+	font-size: 85%;
+	padding: 1px;
+	line-height: 1.3;
+}
+.section-content a:hover {
+	text-decoration: underline;
+	color: #C0BEBB;
+}
+
+.section-content a {
+	text-decoration: none;
+	color: #E3DB9A;
+}
+
+.section-content .duration {
+	font-style: oblique;
+}
+
+.section-content .title {
+	font-weight: bold;
+}
+
+.extra {
+	margin: 0 auto; 
+	font-family: 'OpenSans';
+}
+
+.extra a {
+	text-decoration: none; 
+	color: #E3DB9A;
+}
+
+.extra a:hover {
+	text-decoration: underline;
+	color: #C0BEBB;
+}
+/*/////////////////////////////////////////////////////////////////////////////*/
+	/*CSS FOR ABOUT ME AND SOCIAL ICONS / LEFT-CONTAINER*/
+/*/////////////////////////////////////////////////////////////////////////////*/
+
+#left-container {
+	/*border: 1px solid green;*/
+	width: 300px;
+	
+	margin: 1px;
+	float: left;
+}
+
+#avatar-container {
+	border: 2px solid #2c3e50;
+	width: 200px;
+	height: 267px;
+	margin: 2px auto;
+	padding: ;
+	/*background-color: #2c3e50;*/
+}
+
+#fill-container {
+	/*border: 1px solid black;*/
+	width: 290px;
+	margin: 4px auto;
+	padding: 0;
+	border-bottom: 1px solid #C0BEBB;
+	border-top: 1px solid #C0BEBB  ;
+	background-color: rgba(223,211,182,0.1);
+
+}
+
+#fill-container p {
+	font-family: 'OpenSans';
+	padding: 0 8px;
+	margin: 8px 0 3px 0;
+
+}
+
+#fill-container span {
+	text-align: center;
+}
+
+#about-container {
+	/*border: 1px solid blue;*/
+	width: 295px;
+	height: ;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#social-container {
+	/*border: 1px solid red;*/
+	width: 165px;
+	height: 42px;
+	margin: 5px auto 0 auto;
+}
+
+#social-container img {
+	height: 38px;
+	width: 38px;
+	padding: ;
+
+	
+}
+
+#social-container img:hover {
+	-webkit-transform: scale(1.2);
+}
+
+
+
+/*/////////////////////////////////////////////////////////////////////////////*/
+	/*CSS FOR TITLE DQ AND NAVBAR */
+/*/////////////////////////////////////////////////////////////////////////////*/
+
+#info-container {
+	/*border: 1px solid orange;*/
+	border-bottom: 2px solid   #00021C;
+	width: 680px;
+	height: 200px;
+	
+	margin: auto;
+}
+
+#navbar-container {
+	/*border: 1px solid red;*/
+	width: 680px;
+	height: 55px;
+	margin: auto;
+	position: ;
+}
+
+#navbar-container ul {
+	/*border: 1px solid black;*/
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	list-style-type: none;
+	width: 595px;
+	margin: auto;
+}
+
+#navbar-container li {
+	/*border: 1px solid green;*/
+	float: left;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 2.3em;
+	margin: 1px 10px 1px 23px;
+	padding: 0px 5px 0px 5px;
+	font-family: 'bebas_neueregular';
+	color: #00021C;
+	height: 36px;
+	
+}
+
+#navbar-container li:hover {
+	border-bottom: 2px solid  #f5f0eb;
+}
+
+#logo-container {
+	/*border: 1px solid green;*/
+	width: 680px;
+	height: 66px;
+	margin: 10px auto;
+	position: relative;
+	z-index: ;
+	top: 5px;
+	bottom: 0px;
+}
+
+#logo-container p {
+	/*border: 1px solid green;*/
+	font-size: 4.0em;
+	margin: auto;
+	text-align: center;
+	text-transform: ;
+	font-family: 'distant_galaxyregular';
+	color: #00021C ;
+}
+
+#dq-container {
+	/*border: 1px solid orange;*/
+	width: 680px;
+	height: ;
+	position:relative;
+	z-index: ;
+	/*margin: 0 auto;*/
+	top: 15px;
+	bottom: 0;
+}
+
+#dq-container p {
+	/*border: 1px solid black;*/
+	text-align: center;
+	margin: auto;
+	font-family: 'HelveticaL';
+	color:  #00021C;
+	/*border-top: 2px solid  #2c3e50;*/
+	width: 500px;
+	text-decoration: underline;
+
+}
+
+
+/*/////////////////////////////////////////////////////////////////////////////*/
+	/*CSS FOR BLOG PAGE*/
+/*/////////////////////////////////////////////////////////////////////////////*/
+
+.story-container {
+	border: 1px solid red;
+	width: 680px;
+	height: 400px;
+}
+
+.img-container {
+	border: 1px solid black;
+	width: 400px;
+	height: 250px;
+	margin: auto;
+
+}
+
+.post-container {
+	border: 1px solid orange;
+	width: 675px;
+	height: 145px;
+	margin: auto;
+}
+
+/*/////////////////////////////////////////////////////////////////////////////*/
+		/*CSS FOR PROJECTS PAGE*/
+/*/////////////////////////////////////////////////////////////////////////////*/
+	
+
+.sub-proj-container {
+	/*border: 1px solid black;*/
+	height: ; 
+	width: 680px;
+	overflow: ;
+	margin: 5px auto 0px auto;
+	padding: 5px 0px 5px 0px; 
+	float: ;
+	background-color: rgba(20,33,43,0.7);
+	/* border-bottom: 1px solid #00021C; */
+
+}
+
+
+.img-proj-tab {
+	/*border: 1px solid orange;*/
+    margin: 0 auto;
+    padding: 1px 5px 5px 5px;
+    font-family: 'OpenSans';
+}
+
+.img-proj-tab img:hover {
+	-webkit-transform: scale(1.1);
+	margin-top: 13px;
+}
+
+.img-proj-tab th {
+ 	/*border: 1px solid red;*/
+    padding: 0;
+    /*background-color: #f5f0eb;*/
+    color: #f5f0eb;
+    margin: 0 auto;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+td {
+	/*border: 1px solid yellow;*/
+	padding: 0;
+    margin: 0;
+}
+
+.img-hor img {
+    margin: 1px 6px 0px 6px;
+    /*width: 200px;
+    height: 300px;*/
+   	box-shadow: 1px 1px 5px 3px rgba(149, 165, 166, 1);
+}
+
+.img-hor {
+	/*border: 1px solid red;*/
+    margin-bottom: 5px;
+}
+
+.img-ver img {
+    box-shadow: 1px 1px 5px 3px rgba(149, 165, 166, 1);
+}
+
+/*/////////////////////////////////////////////////////////////////////////////*/
+	/* CSS FOR FORM */
+/*/////////////////////////////////////////////////////////////////////////////*/
+
+#form-container {
+	/*border: 1px solid blue;*/
+	width: 535px;
+	height: ;
+	margin: 70px auto;
+	background-color: #14212B;
+	padding: 10px;
+	border-radius: 0.2em;
+	box-shadow: 0 10px 10px -3px black;
+} 
+
+#form-container p {
+	/*border: 1px solid yellow;*/
+	font-family: 'OpenSans';
+	text-align: left;
+	color:  #e8e8e8;
+	padding: 5px;
+	margin: 2px auto 5px auto;
+}
+
+form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid #2c3e50;
+    border-radius: 0.3em;
+    font-family: 'HelveticaLL';
+    background-color: #e8e8e8;
+}
+
+form div + div {
+    margin-top: 1em;
+ }
+
+label {
+	/*border: 1px solid white;*/
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+input, textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+    border-color: #000;
+}
+
+textarea {
+    vertical-align: top;
+    height: 5em;
+    resize: vertical;
+}
+
+.button {
+    padding-left: 90px;
+}
+
+button {
+    margin-left: .5em;
+}
+
+/*/////////////////////////////////////////////////////////////////////////////*/
+	/* BACK TO TOP BUTTON */
+/*/////////////////////////////////////////////////////////////////////////////*/
+
+.go-top {
+	position: fixed;
+	bottom: 2em;
+	right: 2em;
+	text-decoration: none;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.3);
+	font-size: 14px;
+	padding: 1em;
+	display: none;
+	font-family: 'OpenSans';
+}
+
+.go-top:hover {
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+/*/////////////////////////////////////////////////////////////////////////////*/
+/*UNUSED CSS*/
+/*/////////////////////////////////////////////////////////////////////////////*/
+
+/* #2c3e50 */
+
+/* #desc-container1 {
+	border: 1px solid red;
+	width: 100px;
+	height: 200px;
+	float: right;
+}
+
+#img-container2 {
+	border: 1px solid black;
+	width: 221px;
+
+	height: ;
+} */
+
+/*.desc-container {
+	border: 1px solid red;
+	width: 300px;
+	height: 200px ;
+	float: right;
+
+}*/
+
+/*.sub-proj-container ul {
+	border: 1px solid yellow;
+	list-style-type: none;
+	display: block;
+	width: 600px;
+	margin: 0 auto;
+}
+
+.images li {
+	border: 1px solid green;
+	float: left;
+	width: 152px;
+	height: 152px;
+}
+
+.proj-img {
+	border: 1px solid black;
+	display: inline;
+	margin: 0 auto;
+
+}
+
+.sub-proj-container img {
+	display: ;
+	margin: ;
+	background-color: ;
+	padding: ;
+	opacity: 0.6;
+} 
+
+ .sub-proj-container img:hover {
+	opacity: 1;
+} 
+
+
+
+.enlarge {
+	width: 321px;
+	height: 436px;
+}
+
+.enlarge2 {
+	width: 321px;
+	height: 327px;
+}
+
+.enlarge3 {
+	width: 510px;
+	height: 251px;
+}
+
+#test3 {
+	margin:;
+} */

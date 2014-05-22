@@ -1,0 +1,3 @@
+site ideas:
+background is a picture of source code with opacity.
+one main container in the middle with info and services and my current and upcoming projects
