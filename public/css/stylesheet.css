@@ -423,24 +423,41 @@ a {
 /*/////////////////////////////////////////////////////////////////////////////*/
 
 .story-container {
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 	width: 680px;
 	height: 400px;
 }
 
 .img-container {
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	width: 400px;
-	height: 250px;
+	height: 225px;
 	margin: auto;
+	padding: 4px;
 
 }
 
 .post-container {
-	border: 1px solid orange;
+	/*border: 1px solid orange;*/
+	border-top: 1px solid #C0BEBB;
+	border-bottom: 1px solid #C0BEBB;
 	width: 675px;
-	height: 145px;
-	margin: auto;
+	height:;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.post-container p {
+	color: #FFF;
+	padding: 5px;
+	line-height: 1.2;
+	margin: 0;
+	text-align: justify;
+
+}
+
+.blog-container {
+	background: url("../concrete_wall.png") repeat;
 }
 
 /*/////////////////////////////////////////////////////////////////////////////*/
