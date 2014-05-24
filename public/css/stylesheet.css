@@ -62,6 +62,18 @@
 
 }
 
+@font-face {
+    font-family: 'texgyreadventorregular';
+    src: url('webfontkit/texgyreadventor-regular-webfont.eot');
+    src: url('webfontkit/texgyreadventor-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfontkit/texgyreadventor-regular-webfont.woff') format('woff'),
+         url('webfontkit/texgyreadventor-regular-webfont.ttf') format('truetype'),
+         url('webfontkit/texgyreadventor-regular-webfont.svg#texgyreadventorregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 
 /*/////////////////////////////////////////////////////////////////////////////*/
 	/*GENERAL CSS*/
@@ -425,33 +437,45 @@ a {
 .story-container {
 	/*border: 1px solid red;*/
 	width: 680px;
-	height: 400px;
+	height: ;
+}
+
+.headers {
+	text-align: center;
+	font-family: 'Abel';
+	/*border: 1px solid white;*/
+	margin: 2px auto;
+	color: #FFF;
+	-webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+    font-size: 1.5em;
 }
 
 .img-container {
 	/*border: 1px solid black;*/
 	width: 400px;
-	height: 225px;
-	margin: auto;
-	padding: 4px;
+	height: ;
+	margin: 0 auto;
+	padding: 3px;
 
 }
 
 .post-container {
 	/*border: 1px solid orange;*/
 	border-top: 1px solid #C0BEBB;
-	border-bottom: 1px solid #C0BEBB;
+	/*border-bottom: 1px solid #C0BEBB;*/
 	width: 675px;
 	height:;
 	margin: 0 auto;
 	padding: 0;
+	background-color: rgba(192,190,187,0.2);
 }
 
 .post-container p {
 	color: #FFF;
 	padding: 5px;
 	line-height: 1.2;
-	margin: 0;
+	margin: 0 auto;
 	text-align: justify;
 
 }
@@ -485,7 +509,8 @@ a {
 	/*border: 1px solid orange;*/
     margin: 0 auto;
     padding: 1px 5px 5px 5px;
-    font-family: 'OpenSans';
+    font-family: 'Abel';
+    font-size: 1.1em;
 }
 
 .img-proj-tab img:hover {
