@@ -28,11 +28,11 @@
 
 @font-face {
     font-family: 'OpenSans';
-    src: url('webfontkit/OpenSans-Regular-webfont.eot');
-    src: url('webfontkit/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('webfontkit/OpenSans-Regular-webfont.woff') format('woff'),
-         url('webfontkit/OpenSans-Regular-webfont.ttf') format('truetype'),
-         url('webfontkit/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    src: url('webfontkit/openSans-Regular-webfont.eot');
+    src: url('webfontkit/openSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfontkit/openSans-Regular-webfont.woff') format('woff'),
+         url('webfontkit/openSans-Regular-webfont.ttf') format('truetype'),
+         url('webfontkit/openSans-Regular-webfont.svg#open_sansregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
