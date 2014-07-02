@@ -28,15 +28,16 @@
 
 @font-face {
     font-family: 'OpenSans';
-    src: url('webfontkit/opensans-regular-webfont.eot');
-    src: url('webfontkit/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('webfontkit/opensans-regular-webfont.woff') format('woff'),
-         url('webfontkit/opensans-regular-webfont.ttf') format('truetype'),
-         url('webfontkit/opensans-regular-webfont.svg#open_sansregular') format('svg');
+    src: url('webfontkit/OpenSans-Regular-webfont.eot');
+    src: url('webfontkit/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfontkit/OpenSans-Regular-webfont.woff') format('woff'),
+         url('webfontkit/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('webfontkit/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
 }
+
 
 @font-face {
     font-family: 'HelveticaLL';
@@ -92,6 +93,18 @@ html, body {
     -moz-background-size: cover; 
     -o-background-size: cover; 
     background-size: cover;*/
+}
+
+a{
+	color: #E3DB9A;
+	text-decoration: none;
+
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #C0BEBB;
+
 }
 
 
@@ -158,9 +171,8 @@ html, body {
 	
 }  
 
-a {
-	text-decoration: none;
-}
+
+
 /*/////////////////////////////////////////////////////////////////////////////*/
 	/*CSS FOR RESUME PAGE*/
 /*/////////////////////////////////////////////////////////////////////////////*/
@@ -261,8 +273,7 @@ a {
 }
 
 .extra a:hover {
-	text-decoration: underline;
-	color: #C0BEBB;
+	
 }
 /*/////////////////////////////////////////////////////////////////////////////*/
 	/*CSS FOR ABOUT ME AND SOCIAL ICONS / LEFT-CONTAINER*/
@@ -482,6 +493,7 @@ a {
 
 .blog-container {
 	background: url("../concrete_wall.png") repeat;
+	padding: 2px 0 4px 0;
 }
 
 /*/////////////////////////////////////////////////////////////////////////////*/
